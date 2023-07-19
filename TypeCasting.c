@@ -1,3 +1,7 @@
+#include<stdio.h>
+
+int main(){
+
 int num = 321;
 char snum[5];
 
@@ -8,4 +12,8 @@ itoa(num, snum, 10);
 printf("%s\n", snum);
 
 char str[] = "123";
-int num = atoi(str);
+int number;
+number =  atoi(str);
+
+
+}
