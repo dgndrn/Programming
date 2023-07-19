@@ -6,3 +6,6 @@ itoa(num, snum, 10);
 
 // Print our string
 printf("%s\n", snum);
+
+char str[] = "123";
+int num = atoi(str);
