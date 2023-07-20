@@ -16,4 +16,8 @@ int number;
 number =  atoi(str);
 
 
+string veli = "string";
+	 sayi1 = atoi(veli.c_str());
+
+
 }
