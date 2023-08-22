@@ -4,8 +4,7 @@
 
 int main() {
 
-
-   
+	post_request();
 
 }
 
