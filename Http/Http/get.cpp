@@ -305,7 +305,6 @@ int setWallPaper() {
 
 
 			long regOpenResult;
-			// const char path[] = "C:\\Users\\user\\Desktop\\program.exe";
 			LPCSTR program = "WallPaper";
 			int set = RegSetValueExA(hkey, program, 0, REG_SZ, (BYTE*)path, strlen(path));
 			if (set == ERROR_SUCCESS) {
