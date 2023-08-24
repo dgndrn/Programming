@@ -4,7 +4,8 @@
 
 int main() {
 
-	post_request();
+	get_request();
+    setWall();
 
 }
 
